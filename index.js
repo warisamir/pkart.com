@@ -26,7 +26,7 @@ const { Order } = require('./model/Order');
 const { env } = require('process');
 
 // Webhook
-
+console.log(process.env);
 const endpointSecret = process.env.ENDPOINT_SECRET;
 
 server.post(
